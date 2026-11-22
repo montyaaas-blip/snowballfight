@@ -1,0 +1,20 @@
+name: SnowFight
+version: 1.0.0
+main: cz.vanoce.snowfight.SnowFightPlugin
+api-version: '26.2'
+author: Claude
+description: Vánoční minihra Sněhová bitva
+
+commands:
+  snowfight:
+    description: Ovládání minihry Sněhová bitva
+    usage: /<command> <join|leave|status>
+    aliases: [snow, snehovka]
+
+permissions:
+  snowfight.play:
+    description: Může se připojit do hry
+    default: true
+  snowfight.admin:
+    description: Může nastavovat arénu a spouštět/zastavovat hru
+    default: op

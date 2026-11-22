@@ -1,0 +1,26 @@
+# Sněhová bitva - nastavení
+
+# Minimální počet hráčů pro automatický start odpočtu
+min-players: 2
+# Maximální počet hráčů (sidebar zvládne zobrazit max 15)
+max-players: 12
+
+# Odpočet před startem (sekundy)
+countdown-seconds: 20
+# Délka hry (sekundy)
+game-seconds: 180
+# Kolik zásahů stačí k vítězství
+target-score: 15
+
+# Hráč zasažený koulí je na tuto dobu zpomalený a nemůže být znovu zasažen (sekundy)
+freeze-seconds: 2
+# Jak často se doplňují sněhové koule (sekundy) a kolik jich může hráč max. držet
+snowball-refill-seconds: 3
+max-snowballs: 16
+
+# Když hráč odejde dál než tento počet bloků od středu arény, vrátí se na spawn
+arena-radius: 40
+
+# Nastavuje se příkazy /snowfight setlobby a /snowfight addspawn
+arena:
+  spawns: []
